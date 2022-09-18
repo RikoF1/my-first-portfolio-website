@@ -1,0 +1,212 @@
+/*@import "templatecolours.css";*/
+body {
+  max-width: 1080px; /*56.78%;*/
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #CFF09E;
+}
+
+a:focus {
+  outline-width: 2px;
+  outline-style: dashed;
+  outline-color: red;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    image-orientation: from-image;
+}
+
+/* NAVIGATION BAR CSS */
+nav>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li a {
+  display: block;
+  color: #00000;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+li a:hover {
+  color: #363636;
+}
+#searchbox {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* IMAGE SIZING CSS */
+#banner {
+  width: 100%;
+}
+#avatar {
+  width: 125px;
+  float: left;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+#piccentre {
+  display: block;
+  width: 500px;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#Emailicon {
+  width: 60px;
+  float: left;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  }
+#Instagramicon {
+  width: 60px;
+  float: left;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  }
+#Facebookicon {
+  width: 60px;
+  float: left;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  }
+#googlemapsicon {
+  width: 60px;
+  float: left;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+
+.googlemap{
+  display: block;
+  max-width: 100%;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+/* PHOTOGRAPHY SIZING*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 8px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* TEXT SYTLING */
+h1 {
+  font-family: 'Niramit', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Niramit', sans-serif;
+  font-weight: 500;
+  }
+
+p {
+  font-family: 'Niramit', sans-serif;
+  font-weight: 400;
+}
+
+ul{
+  font-family: 'Niramit', sans-serif;
+  font-weight: 400;
+}
+
+
+#spotifyplayer{
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.followbutton {
+  display: inline-block;
+  float: left;
+  width: 35%;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.twitter-follow-button {
+  display: inline-block;
+  float: left;
+  width: 35%;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#spotifyfollow{
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: -10px;
+}
+
+/* COLOURINGS */
+#sidebar {
+  display: inline-block;
+/*  position: fixed; */
+  background-color: #B5E09D;
+  width: 33%;
+  float: right;
+  }
+
+#main {
+  display: inline-block;
+  background-color: #B5E09D;
+  width: 67%;
+
+ }
+
+#navbar {
+  background-color: #79BD9A;
+  width: 100%;
+  }
